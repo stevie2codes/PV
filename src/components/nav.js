@@ -1,15 +1,25 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "../styles/nav.scss";
 class NavBar extends Component {
   render() {
     return (
       <div>
         <ul className="nav_container">
-          <li>Home</li>
-          <li>Locations</li>
+          <Link className="li" to="/">
+            Home
+          </Link>
+          <Link className="li" to="/locations">
+            Locations
+          </Link>
+
           <img className="navLogo" src={require("../assets/Logo.png")} alt="" />
-          <li>Photos</li>
-          <li>About</li>
+          <Link className="li" to="/photos">
+            Photos
+          </Link>
+          <Link className="li" to="/about">
+            About
+          </Link>
         </ul>
       </div>
     );

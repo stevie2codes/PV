@@ -1,50 +1,10 @@
 @import "./variables";
-
-.content {
-  width: 100vw;
-  height: auto;
-}
-
-.phone {
-  text-decoration: none;
-  color: $white;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-.cards {
-  width: 90vw;
-  height: auto;
-  display: flex;
-  margin: auto;
-  position: absolute;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%);
-}
-.hermLocation,
-.madLocation {
-  background-color: #0f1417;
-  opacity: 0.8;
-  text-align: center;
-  z-index: 100;
-  border: 1px solid $blue;
-  padding: 20px;
-  margin: 5px;
-  width: 300px;
-  height: 300px;
-  border-radius: 4px;
-}
-.location {
-  color: #dcdae8;
-  border-bottom: 0.5px solid $pink;
+.homeStatement {
   font-family: $primary-font;
-  letter-spacing: 3px;
-  font-size: 1.8rem;
-}
-p {
-  color: white;
-  font-family: $secondary-font;
-  text-align: center;
+  color: $white;
+  text-align: right;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  width: 200px;
 }
