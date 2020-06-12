@@ -12,6 +12,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
+        <img
+          className="vapeGuy"
+          src={require("./assets/wild-vibes-1RnPg7tET_s-unsplash.jpg")}
+          alt="vape guy"
+        />
         <Route exact path="/" component={Home} />
         <Route exact path="/locations" component={Locations} />
         <Route exact path="/photos" component={Photos} />
