@@ -23,4 +23,16 @@
 }
 .navLogo {
   width: 20vmin;
+  animation: spin 1s forwards cubic-bezier(0.2, -0.44, 0.76, 0.17);
+}
+
+@keyframes spin {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

@@ -8,7 +8,7 @@ class Home extends Component {
       <div className="homeContainer">
         <h1 className="homeStatement">Serving Nashville since 2014</h1>
         <p className="homeBlurb">
-          A Family owned business With 2 Conveinent locations, Open 7 days a
+          A Family owned business With 2 Convenient locations, Open 7 days a
           week.{" "}
         </p>
         <Link to="/locations">
