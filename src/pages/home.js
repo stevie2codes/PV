@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import "../styles/home.css";
+import "../styles/home.scss";
 class Home extends Component {
   render() {
     return (
       <div className="content">
-        <img
-          className="logo"
-          src={require("../assets/Logo.png")}
-          alt="preciousVapes"
-        ></img>
         <div className="cards">
           <div className="hermLocation">
             <h3 className="location">Hermitage</h3>

@@ -1,0 +1,24 @@
+@import "./variables";
+.nav_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  & li {
+    color: $white;
+    font-size: 2.5vmin;
+    margin: 0 auto;
+    font-family: $primary-font;
+    &:hover {
+      color: $pink;
+      border-bottom: 1px solid $blue;
+      transition: 0.2s ease;
+      transform: scale(1.03);
+      cursor: pointer;
+    }
+  }
+}
+.navLogo {
+  width: 100px;
+}
